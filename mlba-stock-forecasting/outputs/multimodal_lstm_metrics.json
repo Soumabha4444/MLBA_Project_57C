@@ -1,0 +1,34 @@
+{
+  "metrics": {
+    "MAE_mean": 0.011431647198393038,
+    "MAE_lo": 0.010431341032119302,
+    "MAE_hi": 0.012496913065677908,
+    "RMSE_mean": 0.015759469470166664,
+    "RMSE_lo": 0.014196751696569017,
+    "RMSE_hi": 0.017446440392134114,
+    "DA_mean": 49.658769931662874,
+    "DA_lo": 45.3246013667426,
+    "DA_hi": 54.441913439635535,
+    "n_test": 439,
+    "bootstrap_samples": 1000,
+    "bootstrap_seed": 42
+  },
+  "meta": {
+    "source": "outputs/multimodal_lstm_preds.json",
+    "input_kind": "single",
+    "provided_metrics": {
+      "MAE_mean": 0.01146069980269019,
+      "MAE_lo": 0.010475470832575919,
+      "MAE_hi": 0.012432509572439345,
+      "RMSE_mean": 0.015826077597370515,
+      "RMSE_lo": 0.014273181754080868,
+      "RMSE_hi": 0.01741469094826735,
+      "DA_mean": 49.65831435079727,
+      "DA_lo": 44.86902050113895,
+      "DA_hi": 54.21412300683372,
+      "n_test": 439,
+      "bootstrap_samples": 1000,
+      "bootstrap_seed": 42
+    }
+  }
+}

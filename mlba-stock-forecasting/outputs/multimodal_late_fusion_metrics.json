@@ -1,0 +1,34 @@
+{
+  "metrics": {
+    "MAE_mean": 0.011443764819123018,
+    "MAE_lo": 0.010447056805919487,
+    "MAE_hi": 0.012493952754084603,
+    "RMSE_mean": 0.015729491459482225,
+    "RMSE_lo": 0.01412872916399385,
+    "RMSE_hi": 0.0173640916644696,
+    "DA_mean": 53.80273348519363,
+    "DA_lo": 49.19703872437358,
+    "DA_hi": 58.54783599088837,
+    "n_test": 439,
+    "bootstrap_samples": 1000,
+    "bootstrap_seed": 42
+  },
+  "meta": {
+    "source": "outputs/multimodal_late_fusion_preds.json",
+    "input_kind": "single",
+    "provided_metrics": {
+      "MAE_mean": 0.01146860880872573,
+      "MAE_lo": 0.010493579809380309,
+      "MAE_hi": 0.012453846391022259,
+      "RMSE_mean": 0.01579088061323475,
+      "RMSE_lo": 0.014249447129575708,
+      "RMSE_hi": 0.01733963369917492,
+      "DA_mean": 53.98633257403189,
+      "DA_lo": 49.430523917995444,
+      "DA_hi": 58.31435079726651,
+      "n_test": 439,
+      "bootstrap_samples": 1000,
+      "bootstrap_seed": 42
+    }
+  }
+}
