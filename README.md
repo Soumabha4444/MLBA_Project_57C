@@ -32,11 +32,11 @@ The objective is to demonstrate how fusing diverse data modalities can enhance t
 ## Results Summary
 | Model | MAE | RMSE | DA (%) |
 |:------|:------:|:------:|:------:|
-| SN | 0.0177 | 0.0232 | 49.71 |
-| RB | 0.0122 | 0.0165 | 50.36 |
-| MEF | 0.0114 | 0.0158 | 49.66 |
-| MLF | 0.0114 | 0.0157 | **53.80** |
-| MAF | 0.0114 | 0.0158 | 49.66 |
+| SN | 0.017734 | 0.023151 | 49.710145 |
+| RB | 0.012199 | 0.016520 | 50.362319 |
+| MEF | 0.011432 | 0.015759 | 49.658770 |
+| MLF | 0.011444 | 0.015729 | 53.802733 |
+| MAF | 0.011449 | 0.015783 | 49.658770 |
 
 The **Late Fusion (MLF)** model achieved the best trade-off between numerical precision and directional accuracy.
 
