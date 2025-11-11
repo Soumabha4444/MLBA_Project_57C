@@ -1,6 +1,6 @@
 # Multimodal Deep Learning for Stock Price Forecasting: A Fusion-Based Framework
 
-## 📘 Project Overview
+## Project Overview
 This project explores a multimodal deep learning approach to forecast short-term **stock returns** by combining **numerical** (market indicators) and **textual** (Reddit sentiment) data.  
 It compares traditional machine learning models like **Ridge Regression** with deep learning-based **LSTM** and fusion architectures integrating **SBERT embeddings** for sentiment analysis.
 
@@ -8,7 +8,7 @@ The objective is to demonstrate how fusing diverse data modalities can enhance t
 
 ---
 
-## 🧩 Key Features
+## Key Features
 - **Numerical Modeling:** Ridge Regression and LSTM models using OHLCV-based financial indicators.
 - **Textual Modeling:** SBERT (MiniLM-L6-v2) embeddings of Reddit headlines as sentiment features.
 - **Fusion Strategies:** Early, Late, and Attention-Based fusion for integrating modalities.
@@ -17,7 +17,7 @@ The objective is to demonstrate how fusing diverse data modalities can enhance t
 
 ---
 
-## 🧠 Model Summary
+## Model Summary
 | Model | Description | Key Findings |
 |:------|:-------------|:--------------|
 | **SN (Seasonal Naïve)** | Statistical benchmark repeating past seasonal patterns | High error, no predictive value |
@@ -29,7 +29,7 @@ The objective is to demonstrate how fusing diverse data modalities can enhance t
 
 ---
 
-## 🧪 Results Summary
+## Results Summary
 | Model | MAE | RMSE | DA (%) |
 |:------|:------:|:------:|:------:|
 | SN | 0.0177 | 0.0232 | 49.71 |
@@ -38,11 +38,11 @@ The objective is to demonstrate how fusing diverse data modalities can enhance t
 | MLF | 0.0114 | 0.0157 | **53.80** |
 | MAF | 0.0114 | 0.0158 | 49.66 |
 
-📈 The **Late Fusion (MLF)** model achieved the best trade-off between numerical precision and directional accuracy.
+The **Late Fusion (MLF)** model achieved the best trade-off between numerical precision and directional accuracy.
 
 ---
 
-## 🗂️ Data Sources
+## Data Sources
 - **Stock Data:** AAPL (Apple Inc.) from [Yahoo Finance](https://finance.yahoo.com/)
 - **Textual Data:** [Reddit News Dataset (Kaggle)](https://www.kaggle.com/competitions/reddit-news)
 - **Period Covered:** January 2008 – October 2016  
@@ -50,21 +50,21 @@ The objective is to demonstrate how fusing diverse data modalities can enhance t
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Soumabha4444/MLBA_Project_57C.git
 cd MLBA_Project_57C
 ```
 
-### 2️⃣ Create the Conda Environment
+### 2. Create the Conda Environment
 ```bash
 conda env create -f environment.yml
 conda activate mlba_project
 ```
 
-### 3️⃣ Run the Project
+### 3. Run the Project
 ```bash
 python src/stock_forecasting_multimodal.py
 ```
@@ -73,7 +73,7 @@ Alternatively, open the Jupyter notebook (if provided) and execute the workflow 
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 This project ensures reproducibility by providing access to the data, code, and methodology.  
 The code and cleaned dataset are available at **[GitHub Repository Link](https://github.com/Soumabha4444/MLBA_Project_57C)**.  
 
@@ -85,7 +85,7 @@ All dependencies and software versions are documented in the environment file an
 
 ---
 
-## 🚧 Limitations and Future Work
+## Limitations and Future Work
 - FinBERT could not be implemented due to system resource constraints (GPU memory).  
   Future iterations will include FinBERT-based sentiment embeddings for domain-specific understanding.  
 - Expanding datasets across multiple tickers could improve model generalization.  
@@ -93,13 +93,13 @@ All dependencies and software versions are documented in the environment file an
 
 ---
 
-## 🙏 Acknowledgment
+## Acknowledgment
 We thank **Prof. Suman Sanyal** for his guidance and valuable feedback throughout the project.  
 We also acknowledge the **Goa Institute of Management, Panaji**, for providing computational resources and a collaborative research environment.
 
 ---
 
-## 📎 Citation
+## Citation
 If you use this repository or reference this work, please cite it as:
 
 ```
