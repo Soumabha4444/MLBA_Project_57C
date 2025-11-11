@@ -1,4 +1,4 @@
-# Multimodal Deep Learning for Stock Price Forecasting: A Fusion-Based Framework
+# Multimodal Deep Learning for Stock Price Forecasting Using Fusion Mechanisms
 
 ## Project Overview
 This project explores a multimodal deep learning approach to forecast short-term **stock returns** by combining **numerical** (market indicators) and **textual** (Reddit sentiment) data.  
@@ -110,6 +110,6 @@ Goa Institute of Management, 2025.
 
 ---
 
-## 📬 Contact
+## Contact
 For queries or collaborations:  
 📧 **soumabha.nandi@gim.ac.in**
