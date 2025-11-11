@@ -1,0 +1,34 @@
+name: mlba_project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - scipy
+  - statsmodels
+  - ipykernel
+  - tqdm
+  - requests
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit=11.8  # comment out if not using GPU
+  - pip:
+      - yfinance
+      - sentence-transformers
+      - transformers
+      - finbert-embedding  # optional; for FinBERT experiments if resources allow
+      - torchmetrics
+      - plotly
+      - notebook
+      - jupyterlab
+      - beautifulsoup4
+      - lxml
+      - regex
+      - scikit-optimize
