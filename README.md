@@ -1,7 +1,8 @@
 # Multimodal Deep Learning for Stock Price Forecasting Using Fusion Mechanisms
 
 ## Project Overview
-This project implements a multimodal deep learning framework that forecasts short-term **stock returns** by integrating **numerical** (OHLCV-based market indicators) and **textual** (Reddit news sentiment) data.  
+This project implements a multimodal deep learning framework that forecasts short-term **stock returns** by integrating **numerical** (OHLCV-based market indicators) and **textual** (Reddit news sentiment) data. 
+
 It compares traditional machine learning models like **Ridge Regression** with deep learning-based **LSTM-based** architectures and three fusion architectures that incorporate **SBERT** and **FinBERT** embeddings.  
 
 The objective is to demonstrate how multimodal fusion, sentiment-aware features, and event-specific conditioning can improve statistical accuracy and trading performance in financial forecasting.
