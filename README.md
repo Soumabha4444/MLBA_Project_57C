@@ -154,4 +154,5 @@ Goa Institute of Management, 2025.
 ## Contact
 For queries or collaborations:  
 **soumabha.nandi2000@gmail.com**
-**soumabha.nandi25b@gim.ac.in
+
+**soumabha.nandi25b@gim.ac.in**
