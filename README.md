@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project implements a multimodal deep learning framework that forecasts short-term **stock returns** by integrating **numerical** (OHLCV-based market indicators) and **textual** (Reddit news sentiment) data.  
-It compares classical models like **Ridge Regression** with **LSTM-based** architectures and three fusion strategies that incorporate SBERT and FinBERT embeddings.  
+It compares traditional machine learning models like **Ridge Regression** with deep learning-based **LSTM-based** architectures and three fusion architectures that incorporate **SBERT** and **FinBERT** embeddings.  
 
 The objective is to demonstrate how multimodal fusion, sentiment-aware features, and event-specific conditioning can improve statistical accuracy and trading performance in financial forecasting.
 
@@ -63,9 +63,9 @@ The **Late Fusion (MLF)** model achieved the best combination of statistical acc
 ---
 
 ## Data Sources
-- **Stock Data:** Apple Inc. (AAPL) from Yahoo Finance  
-- **Text Data:** Reddit WorldNews headlines from Kaggle  
-- **Time Period:** 2008–2016  
+- **Stock Data:** AAPL (Apple Inc.) from [Yahoo Finance](https://finance.yahoo.com/)
+- **Textual Data:** [Reddit News Dataset (Kaggle)](https://www.kaggle.com/competitions/reddit-news)
+- **Period Covered:** January 2008 – October 2016
 - **Target Variable:** Next-day log return r_{t+1} = ln(P_{t+1} / P_t)
 
 ---
@@ -132,17 +132,25 @@ Dependencies and random seeds are fixed in `environment.yml`. CPU support is suf
 
 ---
 
-## Acknowledgment
-Thanks to **Prof. Suman Sanyal** and **Goa Institute of Management** for guidance and computational support.
+## Acknowledgment 
+We thank **Prof. Suman Sanyal** for his guidance and valuable feedback throughout the project.
+
+We also acknowledge the **Goa Institute of Management, Panaji**, for providing computational resources and a collaborative research environment.
 
 ---
 
 ## Citation
-Soumabha Nandi, Raunaq Singh Sarna, Suvodeep Saha.  
-"Multimodal Deep Learning for Stock Price Forecasting Using Fusion Mechanisms."  
+If you use this repository or reference this work, please cite it as:
+
+```
+Soumabha Nandi, Raunaq Singh Sarna, Suvodeep Saha. 
+"Multimodal Deep Learning for Stock Price Forecasting Using Fusion Mechanisms" 
 Goa Institute of Management, 2025.
+```
 
 ---
 
 ## Contact
-📧 soumabha.nandi@gim.ac.in
+For queries or collaborations:  
+**soumabha.nandi2000@gmail.com**
+**soumabha.nandi25b@gim.ac.in
